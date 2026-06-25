@@ -96,3 +96,20 @@ linha_3 = f'{imc:.2f}'
 print (linha_1)
 print (linha_2)
 print (linha_3)
+#---------------------
+
+print('\n')
+a = 'A'
+b = 'B'
+c = 1.1
+
+formato = 'a={} b={} c={}'.format(a, b, c)
+print (formato)
+
+
+string_formato = 'a={0} b={1} c={2:.2f} c={2:.2f} c={nome3:.2f}' #Posso trabalhar com índeces 0,1,2,3 e assim por diante
+#sempre que nomeio um parametro para que não de erro eu tenho que nomear o proximo 
+formato = string_formato.format(a,b, c, nome3=c) #posso nomear indices, como por exemplo nome3(PARAMETRO), a,b e c são argumentos
+print (formato)
+
+#---------------------
