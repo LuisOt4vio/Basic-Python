@@ -12,3 +12,7 @@ print(f'{variavel: <10}')
 print(f'{variavel: ^10}')
 print(f'{1000.872837213702793472794:0=+10,.2f}')
 print(f'O hexadecimal de 1765 é {1765:08X}')
+
+variavel2 = 'Olá Mundo'
+print(variavel2[4:]) #[i:f:p]
+print(len(variavel2[-8:-4])) #[i:f:p]
