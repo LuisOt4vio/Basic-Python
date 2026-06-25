@@ -113,3 +113,25 @@ formato = string_formato.format(a,b, c, nome3=c) #posso nomear indices, como por
 print (formato)
 
 #---------------------
+
+nome = input ('Qual seu nome? ')
+print (f'O seu nome é: {nome}')
+
+numero1 = input ('Digite o primeiro número: ')
+numero2 = input ('Digite o segundo número: ')
+
+numero_calc1 = int(numero1)
+numero_calc2 = int(numero2)
+
+print (f'A soma dos números é: {numero_calc1 + numero_calc2}')
+
+#---------------------
+
+digitar = input('Você deseja entrar ou sair? ')
+
+if digitar == 'entrar':
+    print('Você entrou no sistema.')
+elif digitar == 'sair':
+    print('Você saiu do sistema.')
+else:
+    print('Não foi digitado nem entrar e nem sair.')
