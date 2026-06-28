@@ -15,8 +15,11 @@ Faça a contagem de tentativas do seu
 usuário.
 """
 
+import os
+
+
 tentativas = 0
-palavra_secreta = 'Bolinha'
+palavra_secreta = 'AUSENTE'
 palavra_secreta_2 = ''
 letras_acertadas = ''
 
@@ -56,7 +59,7 @@ while True:
         descobriu_palavra = input('Digite a palava caso tenha descoberto: ')
     else:
         continue
-
+    os.system('cls')
     if descobriu_palavra == palavra_secreta:
         print(f'Parabéns você acertou a palavra {palavra_secreta} com {tentativas} tentativas !!!!')
         break
